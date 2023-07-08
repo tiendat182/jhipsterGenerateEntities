@@ -1,0 +1,90 @@
+{
+  "applications": "*",
+  "entityTableName": "cps_bondholder_payment",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "bondCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bondName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "listedCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "custodyCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "redemption",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tcbsId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "paymentDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "actualPaymentDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "confirmDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "volume",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "tradingCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "streamCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "processInstanceId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bomApproveDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String"
+    }
+  ],
+  "name": "CPSBondholderPayment",
+  "pagination": "pagination",
+  "relationships": []
+}
