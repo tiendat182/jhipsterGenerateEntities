@@ -1,5 +1,8 @@
 {
   "applications": "*",
+  "changelogDate": "20230708084554",
+  "clientRootFolder": "jhipsterTemp",
+  "databaseType": "sql",
   "entityTableName": "cps_bondholder_payment",
   "fields": [
     {
@@ -84,6 +87,7 @@
       "fieldType": "String"
     }
   ],
+  "microserviceName": "jhipsterTemp",
   "name": "CPSBondholderPayment",
   "pagination": "pagination",
   "relationships": []
